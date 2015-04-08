@@ -2,6 +2,14 @@
   margin: 0;
 }
 
+*::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+}
+
+input {
+  text-align: center;
+}
 
 /***************
     HEADER
@@ -31,7 +39,7 @@
   font-size: 15px;
   color: white;
   margin: 0.4em;
-  border: 0.2em solid skyblue;
+  border: 0.1em solid skyblue;
   padding: 0.7em;
   background-color: rgba(0,0,0,0.1);
 }
@@ -58,16 +66,70 @@ li:hover {
   font-size: 2.7em;
   color: white;
   text-transform: uppercase; 
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .welcome p {
   color: white;
-  margin-top: 0.5em;
+  text-decoration: underline;
   font-size: 1.5em;
   font-family: cursive, sans-serif;
 }
 
+/***************
+  Subscribe
+***************/
 
+.input {
+  text-align: center;
+}
+
+input[name=name] {
+  width: 30em;
+  height: 3em;
+  margin: auto;
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+  color: white;
+  font-size: 100%;
+  margin-top: 5em;
+  border: solid 1px white;
+}
+
+input[name=last] {
+  width: 30em;
+  height: 3em;
+  margin: auto;
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+  color: white;
+  font-size: 100%;
+  margin-top: 1em;
+  border: solid 1px white;
+}
+
+input[name=email] {
+  width: 30em;
+  height: 3em;
+  margin: auto;
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+  color: white;
+  font-size: 100%;
+  margin-top: 1em;
+  border: solid 1px white;
+}
+
+input[type=submit] {
+  width: 30em;
+  height: 3em;
+  margin: auto;
+  background-color: skyblue;
+  border: none;
+  color: white;
+  font-size: 100%;
+  margin-top: 1em;
+}
 
 
 
